@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+  /* REMOVE FROM LIVE CODE */
+    body
+    {
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+  /* END REMOVE FROM LIVE CODE */
+    
+  
+  /* Mosaic style grid (based on grid of links) */
+        .mosaic-grid-3 {
+          list-style: none;
+          padding-left: 0;
+          display: flex;
+          flex-wrap: wrap;
+          font-family: Cabin,sans-serif;
+
+        }
+
+        
+        .mosaic-grid-3 > * {
+          width:100%;
+          text-align: center;
+        }
+        
+        ul.mosaic-grid-3 img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+}
+        
+        .mosaic-grid-3 a {
+          display: block;
+          text-decoration: none;
+          color: black !important;
+
+        }
+        
+        
+        .mosaic-grid-3 .subtitle {
+          font-size: 1.1rem;
+        }
+        
+          a p > span.subtitle 
+          {
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+ }
+ 
+        .mosaic-grid-3 li a {
+          text-align: left;
+          margin: 0 8px 48px 8px;
+        }
+
+
+        .mosaic-grid-3 .title {
+          display: block;
+          margin: 16px 0 -8px 0;
+          font-size: 1.2rem;
+          font-weight: 500;
+          font-style: normal;
+        }
+        
+        @media screen and (min-width: 640px) {
+          .mosaic-grid-3 > * {
+            width:33%;
+          }
+        }
+/* End Mosaic style grid (based on grid of links) */        
+  </style>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Grid Test</title>
+  <meta name="generator" content="BBEdit 13.5">
+</head>
+<body>
+  <ul class="mosaic-grid-3">
+    <li>
+      <a href="http://ox.libguides.com/subjectguides">
+      <img alt="Studying" loading="lazy" src="gridtest-01.png"width="600" height="400">
+      <span class="title">Browse Subject Guides</span>
+      <p><span class="subtitle">Find resources for your subject area</span></p>
+      </a>
+      </li>
+    <li>
+      <a href="http://ox.libguides.com/research-support-collections">
+      <img alt="Two people at laptops" loading="lazy" src="gridtest-02.png"width="600" height="400">
+      <span class="title">Research Guidance & Accessing Collections</span>
+      <p><span class="subtitle">Research support and tips on accessing the libraries' collections</span></p>
+      </a>
+    </li>
+    <li>
+      <a href="http://ox.libguides.com/home/specialist-materials">
+      <img alt="Books on shelves" loading="lazy" src="gridtest-03.png"width="600" height="400">
+      <span class="title">Special Collections</span>
+      <p><span class="subtitle">Guidance on accessing our special collections</span></p>
+      </a>
+    </li>
+    <li>
+      <a href="https://libguides.bodleian.ox.ac.uk/az.php">
+      <img alt="Picture of a microscope" loading="lazy" src="gridtest-04.png"width="600" height="400">    
+      <span class="title">Databases A-Z</span>
+      <p><span class="subtitle">Browse our extensive list of databases</span></p>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.bodleian.ox.ac.uk/ask/getting-started#/">
+      <img alt="Picture of books on shelves" loading="lazy" src="gridtest-05.png"width="600" height="400">
+      <span class="title">Getting Started</span>
+      <p><span class="subtitle">Guides to getting started in the Bodleian Libraries</span></p>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.bodleian.ox.ac.uk/ask/workshops">
+      <img alt="People at table" loading="lazy" src="gridtest-06.png"width="600" height="400">
+      <span class="title">Workshops</span>
+      <p><span class="subtitle">Workshops to develop your skills in information discovery</span></p>
+      </a>
+    </li>
+  </ul>
+</body>
+</html>
