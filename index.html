@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap" rel="stylesheet">
-  <style>
+<style>
   /* Mosaic style grid (based on grid of links) */
         .mosaic-grid-3 {
           list-style: none;
-          padding-left: 0;
+          padding-left: 8px;
           display: flex;
           flex-wrap: wrap;
           font-family: Cabin,sans-serif;
@@ -23,6 +23,11 @@
           display: block;
           max-width: 100%;
           height: auto;
+}
+
+ .mosaic-grid-3 a:hover img {
+    -webkit-filter: brightness(70%);
+   filter: brightness(70%);
 }
         
         .mosaic-grid-3 a {
@@ -41,6 +46,7 @@
           {
           margin-top: 0 !important;
           padding-top: 0 !important;
+           line-height: 1.3 ! important;
  }
  
         .mosaic-grid-3 li a {
@@ -56,6 +62,19 @@
           font-weight: 500;
           font-style: normal;
         }
+
+        .mosaic-grid-3 h3 .title, .mosaic-grid-3 li p .subtitle {
+          hyphens: none;
+          word-break: normal;
+          -webkit-hyphens: none;
+        }
+        
+ /*     ul.mosaic-grid-3 > li > a > p > span.subtitle {
+          hyphens: none;
+          word-break: normal;
+          -webkit-hyphens: none;
+        }
+ */       
         
         @media screen and (min-width: 640px) {
           .mosaic-grid-3 > * {
@@ -69,49 +88,54 @@
   <meta name="generator" content="BBEdit 13.5">
 </head>
 <body>
+
+
   <ul class="mosaic-grid-3">
     <li>
       <a href="http://ox.libguides.com/subjectguides">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-01.png" width="600" height="400">
-      <span class="title"><h3>Browse Subject Guides</h3></h3></span>
-      <p><span class="subtitle">Find resources for your subject area</span></p>
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/studying-gladstonelink.jpg" width="600" height="400">
+      <span class="title"><h3>Subject Guides</h3></h3></span>
+      <p><span class="subtitle">Expert advice on resources for your subject area</span></p>
       </a>
       </li>
     <li>
       <a href="http://ox.libguides.com/research-support-collections">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-02.png" width="600" height="400">
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/researchguide-education.jpg" width="600" height="400">
       <span class="title"><h3>Research Guidance & Accessing Collections</h3></span>
       <p><span class="subtitle">Research support and tips on accessing the libraries' collections</span></p>
       </a>
     </li>
     <li>
       <a href="http://ox.libguides.com/home/specialist-materials">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-03.png" width="600" height="400">
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/specialcollections-law.jpg" width="600" height="400">
       <span class="title"><h3>Special Collections</h3></span>
       <p><span class="subtitle">Guidance on accessing our special collections</span></p>
       </a>
     </li>
     <li>
       <a href="https://libguides.bodleian.ox.ac.uk/az.php">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-04.png" width="600" height="400">    
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/databases-sbs.jpg" width="600" height="400">    
       <span class="title"><h3>Databases A-Z</h3></span>
-      <p><span class="subtitle">Browse our extensive list of databases</span></p>
+      <p><span class="subtitle">Browse our extensive list of online databases</span></p>
       </a>
     </li>
     <li>
       <a href="https://www.bodleian.ox.ac.uk/ask/getting-started#/">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-05.png" width="600" height="400">
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/gettingstarted-law.jpg" width="600" height="400">
       <span class="title"><h3>Getting Started</h3></span>
       <p><span class="subtitle">Guides to getting started in the Bodleian Libraries</span></p>
       </a>
     </li>
     <li>
       <a href="https://www.bodleian.ox.ac.uk/ask/workshops">
-      <img alt="" loading="lazy" src="https://sainsburylibrary.github.io/grid-test/gridtest-06.png" width="600" height="400">
+      <img alt="" loading="lazy" src="https://libapps-eu.s3.amazonaws.com/accounts/80124/images/workshop-kbchen.jpg" width="600" height="400">
       <span class="title"><h3>Workshops</h3></span>
       <p><span class="subtitle">Workshops to develop your skills in information discovery</span></p>
       </a>
     </li>
   </ul>
+  
+  
+  
 </body>
 </html>
